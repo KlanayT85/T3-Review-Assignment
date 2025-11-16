@@ -1,0 +1,117 @@
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 3
+   Review Assignment
+   
+   Style Sheet for the Pandaisia Chocolates Monthly Specials
+   Author: Katrice Thomas
+   Date:   October 26,2025
+   
+   Filename: pc_specials.css
+
+*/
+
+/* Page Body Styles */
+
+body {
+   margin-left: auto;
+   margin-right: auto;
+   width: 95%;
+   min-width: 640px;
+   max-width: 960px;
+}
+
+body > header > navigationhorizontal li {
+   width: 16.66%;
+}
+
+/* Image Styles */
+
+img {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+
+
+/* Horizontal Navigation Styles */
+
+nav .horizontalnavigation li {
+   display: block;
+   float: left;
+}
+
+nav .horizontalnavigation a {
+   display: block;
+   text-align: center;
+}
+
+
+/* Grid Styles */
+
+body {
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   column-gap: 20px;
+}
+
+header {
+   grid-column: 1 / -1;
+}
+
+footer {
+   grid-column: 1 / -1;
+}
+
+section#sub {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+
+/* Specials Styles */
+div .specials {
+   min-height: 400px;
+   outline: 1px dashed rgb(71, 52, 29);
+}
+
+
+/* Award Styles */
+
+aside {
+   position: relative;
+   height: 650px;
+   overflow: auto;
+}
+
+aside-container aside {
+   position: absolute;
+   width: 30%;
+}
+#award1 {
+   position: absolute;
+   top: 80px;
+   left: 5%;
+}
+
+#award2 {
+   position: absolute;
+   top: 280px;
+   left: 60%;
+}
+#award3 {
+   position: absolute;
+   top: 400px;
+   left: 20%;
+}
+#award4 {
+   position: absolute;
+   top: 630px;
+   left: 45%;
+}
+#award5 {
+   position: absolute;
+   top: 750px;
+   left: 5%;
+}
